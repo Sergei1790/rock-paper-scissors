@@ -1,0 +1,28 @@
+.rps-buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.rps-buttons button{
+    padding: 30px;
+}
+.winner__result{
+    margin-bottom: 20px;
+}
+.final-winner__result{
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.rps__results{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.rps__score{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #369;
+}
