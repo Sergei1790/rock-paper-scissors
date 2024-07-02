@@ -1,7 +1,6 @@
 
 let playerSelection = '';
 let computerSelection = '';
-let gameScore = 0;
 let youWin = 0;
 let computerWin = 0;
 function getComputerChoice (){
