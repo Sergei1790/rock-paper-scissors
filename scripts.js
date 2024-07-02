@@ -5,9 +5,16 @@ let youWin = 0;
 let computerWin = 0;
 function getComputerChoice (){
     let options = ['Rock', 'Paper', 'Scissors'];
-    const randomIndex = Math.floor(Math.random() * options.length);
-    const computerChoice = options[randomIndex];
+    // Updated solution
+    const computerChoice = options[Math.floor(Math.random() * 3)];
+    
+    // or 
+    // const randomIndex = Math.floor(Math.random() * options.length);
+    // const computerChoice = options[randomIndex];
+    // /
+
     return computerChoice;
+
 }
 
 let rpsButtons = document.querySelectorAll('.rps-button');
