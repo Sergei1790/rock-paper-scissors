@@ -48,9 +48,9 @@ function playRound (playerSelection, computerSelection){
     }
     let winnerWrapper = document.createElement('div');
     winnerWrapper.classList.add('winner__result');
-    winnerWrapper.innerText = `Opponent - ${computerSelection},\n You - ${playerSelection};\n ${winner}`;
+    winnerWrapper.textContent = `Opponent - ${computerSelection},\n You - ${playerSelection};\n ${winner}`;
     
-    rps__score.innerText = `Current Score: ${youWin} - ${computerWin}`
+    rps__score.textContent = `Current Score: ${youWin} - ${computerWin}`
     rps__results.appendChild(winnerWrapper);
     return winner;
 }
@@ -69,7 +69,7 @@ function game(score){
         }
         let finalwinnerWrapper = document.createElement('div');
         finalwinnerWrapper.classList.add('final-winner__result');
-        finalwinnerWrapper.innerText = victory;
+        finalwinnerWrapper.textContent = victory;
         rps__results.appendChild(finalwinnerWrapper);
         youWin = 0;
         computerWin = 0;
